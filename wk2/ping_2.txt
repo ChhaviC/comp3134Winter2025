@@ -1,0 +1,9 @@
+PING 178.128.227.203 (178.128.227.203): 56 data bytes
+64 bytes from 178.128.227.203: icmp_seq=0 ttl=52 time=7.135 ms
+64 bytes from 178.128.227.203: icmp_seq=1 ttl=52 time=5.349 ms
+64 bytes from 178.128.227.203: icmp_seq=2 ttl=52 time=8.077 ms
+64 bytes from 178.128.227.203: icmp_seq=3 ttl=52 time=5.523 ms
+
+--- 178.128.227.203 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.349/6.521/8.077/1.137 ms

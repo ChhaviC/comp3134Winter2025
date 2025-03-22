@@ -1,0 +1,111 @@
+162.159.140.229
+3.225.92.8
+54.160.93.182
+3.211.157.115
+140.82.113.3
+151.101.65.164
+151.101.193.164
+151.101.129.164
+151.101.1.164
+151.101.195.5
+151.101.67.5
+151.101.3.5
+151.101.131.5
+{
+  "ip": "162.159.140.229",
+  "city": "San Francisco",
+  "region": "California",
+  "country": "US",
+  "loc": "37.7621,-122.3971",
+  "org": "AS13335 Cloudflare, Inc.",
+  "postal": "94107",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth",
+  "anycast": true
+}{
+  "ip": "52.3.144.142",
+  "hostname": "ec2-52-3-144-142.compute-1.amazonaws.com",
+  "city": "Ashburn",
+  "region": "Virginia",
+  "country": "US",
+  "loc": "39.0437,-77.4875",
+  "org": "AS14618 Amazon.com, Inc.",
+  "postal": "20147",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+}BLOCKED{
+  "ip": "140.82.112.3",
+  "hostname": "lb-140-82-112-3-iad.github.com",
+  "city": "South Riding",
+  "region": "Virginia",
+  "country": "US",
+  "loc": "38.9209,-77.5039",
+  "org": "AS36459 GitHub, Inc.",
+  "postal": "20152",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+}{
+  "ip": "151.101.193.164",
+  "city": "San Francisco",
+  "region": "California",
+  "country": "US",
+  "loc": "37.7621,-122.3971",
+  "org": "AS54113 Fastly, Inc.",
+  "postal": "94107",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth",
+  "anycast": true
+}
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.1.164</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.1.164. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4555-YYZ (151.101.1.164)</p></body></html>
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.65.164</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.65.164. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4547-YYZ (151.101.65.164)</p></body></html>
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.129.164</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.129.164. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4551-YYZ (151.101.129.164)</p></body></html>{
+  "ip": "151.101.67.5",
+  "city": "San Francisco",
+  "region": "California",
+  "country": "US",
+  "loc": "37.7621,-122.3971",
+  "org": "AS54113 Fastly, Inc.",
+  "postal": "94107",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth",
+  "anycast": true
+}
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.195.5</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.195.5. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4544-YYZ (151.101.195.5)</p></body></html>
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.131.5</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.131.5. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4552-YYZ (151.101.131.5)</p></body></html>
+<html>
+<head>
+<title>Fastly error: unknown domain 151.101.3.5</title>
+</head>
+<body>
+<p>Fastly error: unknown domain: 151.101.3.5. Please check that this domain has been added to a service.</p>
+<p>Details: cache-yyz4542-YYZ (151.101.3.5)</p></body></html>

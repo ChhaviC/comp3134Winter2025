@@ -1,0 +1,38 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-22 04:17 EDT
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0060s latency).
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 64.48 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-22 04:18 EDT
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0093s latency).
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-22 04:18 EDT
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0054s latency).
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 4.37 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-22 04:19 EDT
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0081s latency).
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.22 seconds
