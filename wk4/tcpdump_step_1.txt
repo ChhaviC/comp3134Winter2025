@@ -1,0 +1,10 @@
+04:32:52.042892 IP uschi5-edge-get-010.a.aaplimg.com.https > mac.54006: UDP, length 110
+04:32:52.042896 IP uschi5-edge-get-010.a.aaplimg.com.https > mac.54006: UDP, length 38
+04:32:52.043114 IP mac > uschi5-edge-get-010.a.aaplimg.com: ICMP mac udp port 54006 unreachable, length 36
+04:32:52.043182 IP mac > uschi5-edge-get-010.a.aaplimg.com: ICMP mac udp port 54006 unreachable, length 36
+04:32:52.326013 IP mac.63867 > mynetwork.home.domain: 18018+ PTR? 131.26.253.17.in-addr.arpa. (44)
+04:32:52.344190 IP mynetwork.home.domain > mac.63867: 18018 1/4/0 PTR uschi5-edge-get-010.a.aaplimg.com. (164)
+04:32:53.348838 IP mac.52872 > mynetwork.home.domain: 19771+ PTR? 1.2.168.192.in-addr.arpa. (42)
+04:32:53.357525 IP mynetwork.home.domain > mac.52872: 19771* 1/0/0 PTR mynetwork.home. (70)
+04:32:53.783271 IP mynetwork.home.ssdp > 239.255.255.250.ssdp: UDP, length 315
+04:32:53.783275 IP mynetwork.home.ssdp > 239.255.255.250.ssdp: UDP, length 306

@@ -1,0 +1,314 @@
+12:58:29.663559 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [S], seq 1007131002, win 64240, options [mss 1460,sackOK,TS val 2973259815 ecr 0,nop,wscale 7], length 0
+12:58:29.665103 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [S.], seq 4261872788, ack 1007131003, win 65535, options [mss 1400,sackOK,TS val 2657611663 ecr 2973259815,nop,wscale 13], length 0
+12:58:29.665135 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 2973259816 ecr 2657611663], length 0
+12:58:29.666747 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 1:229, ack 1, win 502, options [nop,nop,TS val 2973259818 ecr 2657611663], length 228: HTTP: GET /ubuntu/dists/noble/InRelease HTTP/1.1
+12:58:29.667472 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], ack 229, win 9, options [nop,nop,TS val 2657611666 ecr 2973259818], length 0
+12:58:29.669597 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [S], seq 298307681, win 64240, options [mss 1460,sackOK,TS val 2501957585 ecr 0,nop,wscale 7], length 0
+12:58:29.711105 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1:564, ack 229, win 9, options [nop,nop,TS val 2657611709 ecr 2973259818], length 563: HTTP: HTTP/1.1 304 Not Modified
+12:58:29.711175 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 564, win 498, options [nop,nop,TS val 2973259862 ecr 2657611709], length 0
+12:58:29.712656 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 229:465, ack 564, win 498, options [nop,nop,TS val 2973259864 ecr 2657611709], length 236: HTTP: GET /ubuntu/dists/noble-updates/InRelease HTTP/1.1
+12:58:29.713462 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], ack 465, win 9, options [nop,nop,TS val 2657611712 ecr 2973259864], length 0
+12:58:29.745602 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 564:6356, ack 465, win 9, options [nop,nop,TS val 2657611744 ecr 2973259864], length 5792: HTTP: HTTP/1.1 200 OK
+12:58:29.745602 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 6356:15399, ack 465, win 9, options [nop,nop,TS val 2657611744 ecr 2973259864], length 9043: HTTP
+12:58:29.745668 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 6356, win 592, options [nop,nop,TS val 2973259897 ecr 2657611744], length 0
+12:58:29.745690 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 15399, win 695, options [nop,nop,TS val 2973259897 ecr 2657611744], length 0
+12:58:29.747779 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [S.], seq 2572242149, ack 298307682, win 65535, options [mss 1460,sackOK,TS val 2901459545 ecr 2501957585,nop,wscale 14], length 0
+12:58:29.747837 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 2501957663 ecr 2901459545], length 0
+12:58:29.748622 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [P.], seq 1:233, ack 1, win 502, options [nop,nop,TS val 2501957664 ecr 2901459545], length 232: HTTP: GET /ubuntu/dists/noble-security/InRelease HTTP/1.1
+12:58:29.752315 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 15399:44359, ack 465, win 9, options [nop,nop,TS val 2657611750 ecr 2973259897], length 28960: HTTP
+12:58:29.753441 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 44359, win 695, options [nop,nop,TS val 2973259905 ecr 2657611750], length 0
+12:58:29.763344 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 44359:48703, ack 465, win 9, options [nop,nop,TS val 2657611761 ecr 2973259905], length 4344: HTTP
+12:58:29.763404 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 48703, win 763, options [nop,nop,TS val 2973259915 ecr 2657611761], length 0
+12:58:29.763631 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 48703:53047, ack 465, win 9, options [nop,nop,TS val 2657611762 ecr 2973259905], length 4344: HTTP
+12:58:29.763648 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 53047, win 831, options [nop,nop,TS val 2973259915 ecr 2657611762], length 0
+12:58:29.763738 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 53047:81471, ack 465, win 9, options [nop,nop,TS val 2657611762 ecr 2973259905], length 28424: HTTP
+12:58:29.763738 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 81471:102279, ack 465, win 9, options [nop,nop,TS val 2657611762 ecr 2973259905], length 20808: HTTP
+12:58:29.763767 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 81471, win 1275, options [nop,nop,TS val 2973259915 ecr 2657611762], length 0
+12:58:29.763781 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 102279, win 1600, options [nop,nop,TS val 2973259915 ecr 2657611762], length 0
+12:58:29.776366 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 102279:118207, ack 465, win 9, options [nop,nop,TS val 2657611774 ecr 2973259915], length 15928: HTTP
+12:58:29.776424 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 118207, win 1849, options [nop,nop,TS val 2973259928 ecr 2657611774], length 0
+12:58:29.776438 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 118207:127328, ack 465, win 9, options [nop,nop,TS val 2657611774 ecr 2973259915], length 9121: HTTP
+12:58:29.776449 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 127328, win 1992, options [nop,nop,TS val 2973259928 ecr 2657611774], length 0
+12:58:29.781778 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 465:703, ack 127328, win 1992, options [nop,nop,TS val 2973259933 ecr 2657611774], length 238: HTTP: GET /ubuntu/dists/noble-backports/InRelease HTTP/1.1
+12:58:29.813029 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 127328:127967, ack 703, win 9, options [nop,nop,TS val 2657611811 ecr 2973259933], length 639: HTTP: HTTP/1.1 200 OK
+12:58:29.813100 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 127967:160735, ack 703, win 9, options [nop,nop,TS val 2657611811 ecr 2973259933], length 32768: HTTP
+12:58:29.813124 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 160735, win 2526, options [nop,nop,TS val 2973259964 ecr 2657611811], length 0
+12:58:29.813136 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 160735:185603, ack 703, win 9, options [nop,nop,TS val 2657611811 ecr 2973259933], length 24868: HTTP
+12:58:29.813147 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 185603, win 2915, options [nop,nop,TS val 2973259964 ecr 2657611811], length 0
+12:58:29.813978 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 185603:198635, ack 703, win 9, options [nop,nop,TS val 2657611812 ecr 2973259964], length 13032: HTTP
+12:58:29.814005 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 198635, win 3119, options [nop,nop,TS val 2973259965 ecr 2657611812], length 0
+12:58:29.814063 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 198635:218371, ack 703, win 9, options [nop,nop,TS val 2657611812 ecr 2973259964], length 19736: HTTP
+12:58:29.814063 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 218371:246419, ack 703, win 9, options [nop,nop,TS val 2657611812 ecr 2973259964], length 28048: HTTP
+12:58:29.814087 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 218371, win 3427, options [nop,nop,TS val 2973259965 ecr 2657611812], length 0
+12:58:29.814097 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 246419, win 3865, options [nop,nop,TS val 2973259965 ecr 2657611812], length 0
+12:58:29.815700 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 246419:254140, ack 703, win 9, options [nop,nop,TS val 2657611814 ecr 2973259965], length 7721: HTTP
+12:58:29.815721 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 254140, win 3986, options [nop,nop,TS val 2973259967 ecr 2657611814], length 0
+12:58:29.825967 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 0
+12:58:29.826220 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 1:2897, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 2896: HTTP: HTTP/1.1 200 OK
+12:58:29.826220 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 2897:5793, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 2896: HTTP
+12:58:29.826258 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 2897, win 546, options [nop,nop,TS val 2501957741 ecr 2901459624], length 0
+12:58:29.826271 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 5793, win 592, options [nop,nop,TS val 2501957742 ecr 2901459624], length 0
+12:58:29.826277 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 5793:7241, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 1448: HTTP
+12:58:29.826281 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 7241, win 614, options [nop,nop,TS val 2501957742 ecr 2901459624], length 0
+12:58:29.826433 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 7241:10137, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 2896: HTTP
+12:58:29.826433 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 10137:13033, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 2896: HTTP
+12:58:29.826433 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 13033:14481, ack 233, win 5, options [nop,nop,TS val 2901459624 ecr 2501957664], length 1448: HTTP
+12:58:29.826447 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 10137, win 618, options [nop,nop,TS val 2501957742 ecr 2901459624], length 0
+12:58:29.826455 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 13033, win 599, options [nop,nop,TS val 2501957742 ecr 2901459624], length 0
+12:58:29.826461 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 14481, win 592, options [nop,nop,TS val 2501957742 ecr 2901459624], length 0
+12:58:29.903720 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 14481:17377, ack 233, win 5, options [nop,nop,TS val 2901459702 ecr 2501957741], length 2896: HTTP
+12:58:29.903766 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 17377, win 658, options [nop,nop,TS val 2501957819 ecr 2901459702], length 0
+12:58:29.906466 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 17377:20273, ack 233, win 5, options [nop,nop,TS val 2901459704 ecr 2501957741], length 2896: HTTP
+12:58:29.906503 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 20273, win 658, options [nop,nop,TS val 2501957822 ecr 2901459704], length 0
+12:58:29.911976 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 20273:23169, ack 233, win 5, options [nop,nop,TS val 2901459710 ecr 2501957742], length 2896: HTTP: 26cc              109 restricted/binary-i386/Release
+12:58:29.912015 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 23169, win 658, options [nop,nop,TS val 2501957827 ecr 2901459710], length 0
+12:58:29.917495 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 23169:26065, ack 233, win 5, options [nop,nop,TS val 2901459715 ecr 2501957742], length 2896: HTTP
+12:58:29.917533 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 26065, win 658, options [nop,nop,TS val 2501957833 ecr 2901459715], length 0
+12:58:29.922910 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 26065:28961, ack 233, win 5, options [nop,nop,TS val 2901459721 ecr 2501957742], length 2896: HTTP
+12:58:29.922950 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 28961, win 658, options [nop,nop,TS val 2501957838 ecr 2901459721], length 0
+12:58:29.928338 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 28961:31857, ack 233, win 5, options [nop,nop,TS val 2901459726 ecr 2501957742], length 2896: HTTP
+12:58:29.928377 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 31857, win 655, options [nop,nop,TS val 2501957844 ecr 2901459726], length 0
+12:58:29.933768 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 31857:34753, ack 233, win 5, options [nop,nop,TS val 2901459732 ecr 2501957742], length 2896: HTTP
+12:58:29.933810 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 34753, win 658, options [nop,nop,TS val 2501957849 ecr 2901459732], length 0
+12:58:29.939187 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 34753:37649, ack 233, win 5, options [nop,nop,TS val 2901459737 ecr 2501957742], length 2896: HTTP
+12:58:29.939228 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 37649, win 658, options [nop,nop,TS val 2501957854 ecr 2901459737], length 0
+12:58:29.944613 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 37649:39097, ack 233, win 5, options [nop,nop,TS val 2901459743 ecr 2501957742], length 1448: HTTP
+12:58:29.944655 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 39097, win 666, options [nop,nop,TS val 2501957860 ecr 2901459743], length 0
+12:58:29.947345 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 39097:41993, ack 233, win 5, options [nop,nop,TS val 2901459745 ecr 2501957742], length 2896: HTTP
+12:58:29.947385 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 41993, win 658, options [nop,nop,TS val 2501957863 ecr 2901459745], length 0
+12:58:29.952761 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 41993:43441, ack 233, win 5, options [nop,nop,TS val 2901459751 ecr 2501957742], length 1448: HTTP
+12:58:29.952803 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 43441, win 666, options [nop,nop,TS val 2501957868 ecr 2901459751], length 0
+12:58:29.981150 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 43441:46337, ack 233, win 5, options [nop,nop,TS val 2901459779 ecr 2501957819], length 2896: HTTP
+12:58:29.981197 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 46337, win 658, options [nop,nop,TS val 2501957896 ecr 2901459779], length 0
+12:58:29.983796 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 46337:49233, ack 233, win 5, options [nop,nop,TS val 2901459782 ecr 2501957819], length 2896: HTTP
+12:58:29.983832 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 49233, win 658, options [nop,nop,TS val 2501957899 ecr 2901459782], length 0
+12:58:29.985914 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 703:977, ack 254140, win 3986, options [nop,nop,TS val 2973260137 ecr 2657611814], length 274: HTTP: GET /ubuntu/dists/noble-updates/main/binary-amd64/by-hash/SHA256/6b153d33a958820922dfb3b40ef9da2c9a3ab20594f294d6074d041ff15d58bc HTTP/1.1
+12:58:29.989210 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 49233:52129, ack 233, win 5, options [nop,nop,TS val 2901459787 ecr 2501957822], length 2896: HTTP
+12:58:29.989243 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 52129, win 711, options [nop,nop,TS val 2501957904 ecr 2901459787], length 0
+12:58:29.993927 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 52129:55025, ack 233, win 5, options [nop,nop,TS val 2901459792 ecr 2501957822], length 2896: HTTP
+12:58:29.993964 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 55025, win 756, options [nop,nop,TS val 2501957909 ecr 2901459792], length 0
+12:58:29.998591 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 55025:57921, ack 233, win 5, options [nop,nop,TS val 2901459796 ecr 2501957827], length 2896: HTTP
+12:58:29.998636 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 57921, win 802, options [nop,nop,TS val 2501957914 ecr 2901459796], length 0
+12:58:30.003286 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 57921:60817, ack 233, win 5, options [nop,nop,TS val 2901459801 ecr 2501957827], length 2896: HTTP
+12:58:30.003332 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 60817, win 847, options [nop,nop,TS val 2501957919 ecr 2901459801], length 0
+12:58:30.007947 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 60817:63713, ack 233, win 5, options [nop,nop,TS val 2901459806 ecr 2501957833], length 2896: HTTP
+12:58:30.007995 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 63713, win 892, options [nop,nop,TS val 2501957923 ecr 2901459806], length 0
+12:58:30.009938 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 254140:254779, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 639: HTTP: HTTP/1.1 200 OK
+12:58:30.010086 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 254779:287547, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 32768: HTTP
+12:58:30.010086 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 287547:291891, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 4344: HTTP
+12:58:30.010086 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 291891:320315, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 28424: HTTP
+12:58:30.010122 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 287547, win 4521, options [nop,nop,TS val 2973260161 ecr 2657612008], length 0
+12:58:30.010134 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 291891, win 4588, options [nop,nop,TS val 2973260161 ecr 2657612008], length 0
+12:58:30.010139 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 320315, win 5033, options [nop,nop,TS val 2973260161 ecr 2657612008], length 0
+12:58:30.010208 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 320315:385475, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 65160: HTTP
+12:58:30.010208 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 385475:385851, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 376: HTTP
+12:58:30.010208 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 385851:442199, ack 977, win 9, options [nop,nop,TS val 2657612008 ecr 2973260137], length 56348: HTTP
+12:58:30.010241 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 385475, win 5534, options [nop,nop,TS val 2973260161 ecr 2657612008], length 0
+12:58:30.010647 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 442199, win 5177, options [nop,nop,TS val 2973260162 ecr 2657612008], length 0
+12:58:30.012614 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 63713:66609, ack 233, win 5, options [nop,nop,TS val 2901459811 ecr 2501957838], length 2896: HTTP
+12:58:30.012652 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 66609, win 937, options [nop,nop,TS val 2501957928 ecr 2901459811], length 0
+12:58:30.017307 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 66609:69505, ack 233, win 5, options [nop,nop,TS val 2901459815 ecr 2501957844], length 2896: HTTP
+12:58:30.017351 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 69505, win 983, options [nop,nop,TS val 2501957933 ecr 2901459815], length 0
+12:58:30.021912 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 442199:474967, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 32768: HTTP
+12:58:30.021912 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 474967:507735, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 32768: HTTP
+12:58:30.021970 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 474967, win 6046, options [nop,nop,TS val 2973260173 ecr 2657612020], length 0
+12:58:30.021983 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 69505:70953, ack 233, win 5, options [nop,nop,TS val 2901459820 ecr 2501957849], length 1448: HTTP
+12:58:30.021991 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 70953, win 1005, options [nop,nop,TS val 2501957937 ecr 2901459820], length 0
+12:58:30.022163 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 507735, win 6046, options [nop,nop,TS val 2973260173 ecr 2657612020], length 0
+12:58:30.022240 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 507735:540503, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 32768: HTTP
+12:58:30.022266 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 540503, win 6558, options [nop,nop,TS val 2973260174 ecr 2657612020], length 0
+12:58:30.022289 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 540503:547743, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 7240: HTTP
+12:58:30.022289 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 547743:573271, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 25528: HTTP
+12:58:30.022305 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 547743, win 6672, options [nop,nop,TS val 2973260174 ecr 2657612020], length 0
+12:58:30.022311 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 573271, win 7070, options [nop,nop,TS val 2973260174 ecr 2657612020], length 0
+12:58:30.022357 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 573271:606039, ack 977, win 9, options [nop,nop,TS val 2657612020 ecr 2973260162], length 32768: HTTP
+12:58:30.022373 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 606039:611831, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 5792: HTTP
+12:58:30.022394 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 611831:638807, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 26976: HTTP
+12:58:30.022473 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 638807:671575, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 32768: HTTP
+12:58:30.022473 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 671575:688359, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 16784: HTTP
+12:58:30.022543 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 688359:694151, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 5792: HTTP
+12:58:30.022560 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 694151:721127, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 26976: HTTP
+12:58:30.022560 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 721127:725471, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 4344: HTTP
+12:58:30.022560 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 725471:739575, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260162], length 14104: HTTP
+12:58:30.022870 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 739575:772343, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260173], length 32768: HTTP
+12:58:30.022870 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 772343:805111, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260173], length 32768: HTTP
+12:58:30.022898 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 805111:837879, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260173], length 32768: HTTP
+12:58:30.022898 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 837879:851071, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260173], length 13192: HTTP
+12:58:30.023117 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 851071:883839, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260174], length 32768: HTTP
+12:58:30.023117 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 883839:894967, ack 977, win 9, options [nop,nop,TS val 2657612021 ecr 2973260174], length 11128: HTTP
+12:58:30.023187 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 894967, win 4969, options [nop,nop,TS val 2973260174 ecr 2657612020], length 0
+12:58:30.024317 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 70953:73849, ack 233, win 5, options [nop,nop,TS val 2901459822 ecr 2501957849], length 2896: HTTP
+12:58:30.024344 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 73849, win 1051, options [nop,nop,TS val 2501957940 ecr 2901459822], length 0
+12:58:30.028997 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 73849:76745, ack 233, win 5, options [nop,nop,TS val 2901459827 ecr 2501957854], length 2896: HTTP
+12:58:30.029037 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 76745, win 1096, options [nop,nop,TS val 2501957944 ecr 2901459827], length 0
+12:58:30.033665 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 76745:79641, ack 233, win 5, options [nop,nop,TS val 2901459832 ecr 2501957860], length 2896: HTTP
+12:58:30.033708 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 79641, win 1141, options [nop,nop,TS val 2501957949 ecr 2901459832], length 0
+12:58:30.034485 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 894967:897863, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 2896: HTTP
+12:58:30.034510 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 897863, win 7116, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 897863:927735, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 29872: HTTP
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 927735:960127, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 32392: HTTP
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 960127:989087, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 28960: HTTP
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 989087:992895, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 3808: HTTP
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 992895:1009279, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 16384: HTTP
+12:58:30.034688 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1009279:1025287, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 16008: HTTP
+12:58:30.034737 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 927735, win 7582, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034746 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 960127, win 8089, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034751 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 989087, win 8541, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034755 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 992895, win 8601, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034759 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1009279, win 8857, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034762 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1025287, win 9107, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034803 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1025287:1029631, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 4344: HTTP
+12:58:30.034809 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1029631, win 9175, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034828 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1029631:1058055, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 28424: HTTP
+12:58:30.034839 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1058055, win 9619, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034847 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1058055:1062399, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 4344: HTTP
+12:58:30.034853 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1062399, win 9619, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034880 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1062399:1090823, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 28424: HTTP
+12:58:30.034891 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1090823, win 10063, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034938 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1090823:1123591, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 32768: HTTP
+12:58:30.034938 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1123591:1126487, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 2896: HTTP
+12:58:30.034950 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1123591, win 10575, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.034955 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1126487, win 10575, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.035005 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1126487:1140967, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 14480: HTTP
+12:58:30.035014 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1140967, win 10575, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.035067 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1140967:1156359, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 15392: HTTP
+12:58:30.035067 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1156359:1176687, ack 977, win 9, options [nop,nop,TS val 2657612033 ecr 2973260174], length 20328: HTTP
+12:58:30.035092 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1156359, win 10815, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.035097 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1176687, win 11133, options [nop,nop,TS val 2973260186 ecr 2657612033], length 0
+12:58:30.038360 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 79641:82537, ack 233, win 5, options [nop,nop,TS val 2901459836 ecr 2501957863], length 2896: HTTP
+12:58:30.038395 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 82537, win 1186, options [nop,nop,TS val 2501957954 ecr 2901459836], length 0
+12:58:30.042832 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 82537:85433, ack 233, win 5, options [nop,nop,TS val 2901459841 ecr 2501957868], length 2896: HTTP
+12:58:30.042872 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 85433, win 1232, options [nop,nop,TS val 2501957958 ecr 2901459841], length 0
+12:58:30.047260 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 85433:88329, ack 233, win 5, options [nop,nop,TS val 2901459845 ecr 2501957868], length 2896: HTTP
+12:58:30.047304 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 88329, win 1277, options [nop,nop,TS val 2501957963 ecr 2901459845], length 0
+12:58:30.051663 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 88329:91225, ack 233, win 5, options [nop,nop,TS val 2901459850 ecr 2501957868], length 2896: HTTP
+12:58:30.051703 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 91225, win 1322, options [nop,nop,TS val 2501957967 ecr 2901459850], length 0
+12:58:30.056087 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 91225:94121, ack 233, win 5, options [nop,nop,TS val 2901459854 ecr 2501957868], length 2896: HTTP
+12:58:30.056132 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 94121, win 1367, options [nop,nop,TS val 2501957971 ecr 2901459854], length 0
+12:58:30.059587 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 977:2061, ack 1176687, win 11133, options [nop,nop,TS val 2973260211 ecr 2657612033], length 1084: HTTP: GET /ubuntu/dists/noble-updates/main/dep11/by-hash/SHA256/4f5cc0a1aad171b915c4d82d2f921e85a59b390c5245e71b508fab9af2dc2efd HTTP/1.1
+12:58:30.060506 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 94121:97017, ack 233, win 5, options [nop,nop,TS val 2901459858 ecr 2501957868], length 2896: HTTP
+12:58:30.060540 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 97017, win 1413, options [nop,nop,TS val 2501957976 ecr 2901459858], length 0
+12:58:30.064940 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 97017:99913, ack 233, win 5, options [nop,nop,TS val 2901459863 ecr 2501957868], length 2896: HTTP
+12:58:30.064997 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 99913, win 1458, options [nop,nop,TS val 2501957980 ecr 2901459863], length 0
+12:58:30.069341 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 99913:102809, ack 233, win 5, options [nop,nop,TS val 2901459867 ecr 2501957896], length 2896: HTTP
+12:58:30.069383 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 102809, win 1503, options [nop,nop,TS val 2501957985 ecr 2901459867], length 0
+12:58:30.072059 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 102809:105705, ack 233, win 5, options [nop,nop,TS val 2901459870 ecr 2501957899], length 2896: HTTP
+12:58:30.072103 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 105705, win 1548, options [nop,nop,TS val 2501957987 ecr 2901459870], length 0
+12:58:30.074610 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 105705:108601, ack 233, win 5, options [nop,nop,TS val 2901459873 ecr 2501957904], length 2896: HTTP
+12:58:30.074646 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 108601, win 1594, options [nop,nop,TS val 2501957990 ecr 2901459873], length 0
+12:58:30.077150 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 108601:111497, ack 233, win 5, options [nop,nop,TS val 2901459875 ecr 2501957909], length 2896: HTTP
+12:58:30.077182 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 111497, win 1639, options [nop,nop,TS val 2501957992 ecr 2901459875], length 0
+12:58:30.079697 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 111497:114393, ack 233, win 5, options [nop,nop,TS val 2901459878 ecr 2501957909], length 2896: HTTP
+12:58:30.079727 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 114393, win 1684, options [nop,nop,TS val 2501957995 ecr 2901459878], length 0
+12:58:30.082246 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 114393:117289, ack 233, win 5, options [nop,nop,TS val 2901459880 ecr 2501957914], length 2896: HTTP
+12:58:30.082285 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 117289, win 1729, options [nop,nop,TS val 2501957998 ecr 2901459880], length 0
+12:58:30.084755 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 117289:120185, ack 233, win 5, options [nop,nop,TS val 2901459883 ecr 2501957914], length 2896: HTTP
+12:58:30.084796 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 120185, win 1775, options [nop,nop,TS val 2501958000 ecr 2901459883], length 0
+12:58:30.086405 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1176687:1209367, ack 2061, win 9, options [nop,nop,TS val 2657612084 ecr 2973260211], length 32680: HTTP: HTTP/1.1 200 OK
+12:58:30.086405 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1209367:1242135, ack 2061, win 9, options [nop,nop,TS val 2657612084 ecr 2973260211], length 32768: HTTP
+12:58:30.086405 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1242135:1274903, ack 2061, win 9, options [nop,nop,TS val 2657612084 ecr 2973260211], length 32768: HTTP
+12:58:30.086405 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1274903:1287090, ack 2061, win 9, options [nop,nop,TS val 2657612084 ecr 2973260211], length 12187: HTTP
+12:58:30.086463 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1209367, win 11644, options [nop,nop,TS val 2973260238 ecr 2657612084], length 0
+12:58:30.086474 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1242135, win 12156, options [nop,nop,TS val 2973260238 ecr 2657612084], length 0
+12:58:30.086477 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1274903, win 12668, options [nop,nop,TS val 2973260238 ecr 2657612084], length 0
+12:58:30.086483 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1287090, win 12858, options [nop,nop,TS val 2973260238 ecr 2657612084], length 0
+12:58:30.087293 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 120185:123081, ack 233, win 5, options [nop,nop,TS val 2901459885 ecr 2501957919], length 2896: HTTP
+12:58:30.087314 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 123081, win 1820, options [nop,nop,TS val 2501958003 ecr 2901459885], length 0
+12:58:30.088779 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1287090:1291434, ack 2061, win 9, options [nop,nop,TS val 2657612087 ecr 2973260238], length 4344: HTTP
+12:58:30.088796 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1291434, win 12926, options [nop,nop,TS val 2973260240 ecr 2657612087], length 0
+12:58:30.088949 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1291434:1324202, ack 2061, win 9, options [nop,nop,TS val 2657612087 ecr 2973260238], length 32768: HTTP
+12:58:30.088949 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1324202:1328258, ack 2061, win 9, options [nop,nop,TS val 2657612087 ecr 2973260238], length 4056: HTTP
+12:58:30.088967 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1324202, win 13438, options [nop,nop,TS val 2973260240 ecr 2657612087], length 0
+12:58:30.088973 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1328258, win 13501, options [nop,nop,TS val 2973260240 ecr 2657612087], length 0
+12:58:30.089754 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 123081:125977, ack 233, win 5, options [nop,nop,TS val 2901459888 ecr 2501957919], length 2896: HTTP
+12:58:30.089767 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 125977, win 1865, options [nop,nop,TS val 2501958005 ecr 2901459888], length 0
+12:58:30.092213 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 125977:126436, ack 233, win 5, options [nop,nop,TS val 2901459890 ecr 2501957923], length 459: HTTP
+12:58:30.092235 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 126436, win 1888, options [nop,nop,TS val 2501958007 ecr 2901459890], length 0
+12:58:30.092913 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [P.], seq 2061:3153, ack 1328258, win 13501, options [nop,nop,TS val 2973260244 ecr 2657612087], length 1092: HTTP: GET /ubuntu/dists/noble-backports/main/dep11/by-hash/SHA256/1a23abba811118ac6e0bf122b0c417594918f420d58f3a0fd09154eaf9ee151a HTTP/1.1
+12:58:30.113970 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1328258:1332602, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 4344: HTTP: HTTP/1.1 200 OK
+12:58:30.114021 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1332602, win 13501, options [nop,nop,TS val 2973260265 ecr 2657612112], length 0
+12:58:30.114115 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1332602:1360938, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 28336: HTTP
+12:58:30.114115 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1360938:1393706, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 32768: HTTP
+12:58:30.114115 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1393706:1424114, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 30408: HTTP
+12:58:30.114149 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1360938, win 13944, options [nop,nop,TS val 2973260265 ecr 2657612112], length 0
+12:58:30.114156 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1393706, win 14456, options [nop,nop,TS val 2973260265 ecr 2657612112], length 0
+12:58:30.114159 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1424114, win 14931, options [nop,nop,TS val 2973260265 ecr 2657612112], length 0
+12:58:30.114330 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1424114:1458866, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 34752: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1458866:1459242, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 376: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1459242:1515714, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 56472: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1515714:1524402, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 8688: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1524402:1587645, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 63243: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1587645:1625453, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 37808: HTTP
+12:58:30.114331 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1625453:1631245, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 5792: HTTP
+12:58:30.114385 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1458866, win 15474, options [nop,nop,TS val 2973260266 ecr 2657612112], length 0
+12:58:30.114396 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1515714, win 16357, options [nop,nop,TS val 2973260266 ecr 2657612112], length 0
+12:58:30.114403 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1524402, win 16492, options [nop,nop,TS val 2973260266 ecr 2657612112], length 0
+12:58:30.114420 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1631245:1658221, ack 3153, win 9, options [nop,nop,TS val 2657612112 ecr 2973260244], length 26976: HTTP
+12:58:30.114420 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [.], seq 1658221:1672701, ack 3153, win 9, options [nop,nop,TS val 2657612113 ecr 2973260244], length 14480: HTTP
+12:58:30.114434 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1672701:1690989, ack 3153, win 9, options [nop,nop,TS val 2657612113 ecr 2973260244], length 18288: HTTP
+12:58:30.114434 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1690989:1692821, ack 3153, win 9, options [nop,nop,TS val 2657612113 ecr 2973260244], length 1832: HTTP
+12:58:30.115431 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1692821, win 15389, options [nop,nop,TS val 2973260267 ecr 2657612112], length 0
+12:58:30.138281 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1692821:1693666, ack 3153, win 9, options [nop,nop,TS val 2657612136 ecr 2973260267], length 845: HTTP: HTTP/1.1 200 OK
+12:58:30.169357 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1693666:1695240, ack 3153, win 9, options [nop,nop,TS val 2657612167 ecr 2973260267], length 1574: HTTP: HTTP/1.1 200 OK
+12:58:30.169416 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1695240, win 16492, options [nop,nop,TS val 2973260321 ecr 2657612136], length 0
+12:58:30.195276 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1695240:1702952, ack 3153, win 9, options [nop,nop,TS val 2657612193 ecr 2973260321], length 7712: HTTP: HTTP/1.1 200 OK
+12:58:30.195300 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1702952, win 16613, options [nop,nop,TS val 2973260347 ecr 2657612193], length 0
+12:58:30.221350 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1702952:1724865, ack 3153, win 9, options [nop,nop,TS val 2657612219 ecr 2973260347], length 21913: HTTP: HTTP/1.1 200 OK
+12:58:30.221407 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1724865, win 16955, options [nop,nop,TS val 2973260373 ecr 2657612219], length 0
+12:58:30.246189 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1724865:1725710, ack 3153, win 9, options [nop,nop,TS val 2657612244 ecr 2973260373], length 845: HTTP: HTTP/1.1 200 OK
+12:58:30.270475 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [P.], seq 1725710:1726555, ack 3153, win 9, options [nop,nop,TS val 2657612269 ecr 2973260373], length 845: HTTP: HTTP/1.1 200 OK
+12:58:30.270525 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1726555, win 16955, options [nop,nop,TS val 2973260422 ecr 2657612244], length 0
+12:58:30.315553 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [P.], seq 233:496, ack 126436, win 1888, options [nop,nop,TS val 2501958231 ecr 2901459890], length 263: HTTP: GET /ubuntu/dists/noble-security/main/dep11/by-hash/SHA256/6bdcfb4e9f9189f357e3cd94be557866c213f645f25097c0cac84477edf0282b HTTP/1.1
+12:58:30.393113 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 126436:129332, ack 496, win 5, options [nop,nop,TS val 2901460191 ecr 2501958231], length 2896: HTTP: HTTP/1.1 200 OK
+12:58:30.393168 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 129332, win 1933, options [nop,nop,TS val 2501958308 ecr 2901460191], length 0
+12:58:30.393784 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 129332:132228, ack 496, win 5, options [nop,nop,TS val 2901460192 ecr 2501958231], length 2896: HTTP
+12:58:30.393812 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 132228, win 1978, options [nop,nop,TS val 2501958309 ecr 2901460192], length 0
+12:58:30.395128 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 132228:133676, ack 496, win 5, options [nop,nop,TS val 2901460193 ecr 2501958231], length 1448: HTTP
+12:58:30.395150 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 133676, win 2001, options [nop,nop,TS val 2501958310 ecr 2901460193], length 0
+12:58:30.395783 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 133676:135664, ack 496, win 5, options [nop,nop,TS val 2901460194 ecr 2501958231], length 1988: HTTP
+12:58:30.395802 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 135664, win 2032, options [nop,nop,TS val 2501958311 ecr 2901460194], length 0
+12:58:30.398392 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [P.], seq 496:1301, ack 135664, win 2032, options [nop,nop,TS val 2501958314 ecr 2901460194], length 805: HTTP: GET /ubuntu/dists/noble-security/universe/dep11/by-hash/SHA256/be1d0e3746821d54273628033ff864b5049da82ef0e54ebab542f22470611d50 HTTP/1.1
+12:58:30.475908 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 135664:138560, ack 1301, win 5, options [nop,nop,TS val 2901460274 ecr 2501958314], length 2896: HTTP: HTTP/1.1 200 OK
+12:58:30.475958 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 138560, win 2077, options [nop,nop,TS val 2501958391 ecr 2901460274], length 0
+12:58:30.476587 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 138560:141456, ack 1301, win 5, options [nop,nop,TS val 2901460274 ecr 2501958314], length 2896: HTTP
+12:58:30.476612 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 141456, win 2122, options [nop,nop,TS val 2501958392 ecr 2901460274], length 0
+12:58:30.477922 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [.], seq 141456:142904, ack 1301, win 5, options [nop,nop,TS val 2901460276 ecr 2501958314], length 1448: HTTP
+12:58:30.478571 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 142904:145800, ack 1301, win 5, options [nop,nop,TS val 2901460276 ecr 2501958314], length 2896: HTTP
+12:58:30.478592 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 145800, win 2190, options [nop,nop,TS val 2501958394 ecr 2901460276], length 0
+12:58:30.479941 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 145800:148696, ack 1301, win 5, options [nop,nop,TS val 2901460278 ecr 2501958314], length 2896: HTTP
+12:58:30.479963 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 148696, win 2235, options [nop,nop,TS val 2501958395 ecr 2901460278], length 0
+12:58:30.481286 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 148696:151592, ack 1301, win 5, options [nop,nop,TS val 2901460279 ecr 2501958314], length 2896: HTTP
+12:58:30.481310 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 151592, win 2281, options [nop,nop,TS val 2501958397 ecr 2901460279], length 0
+12:58:30.482590 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 151592:154488, ack 1301, win 5, options [nop,nop,TS val 2901460281 ecr 2501958314], length 2896: HTTP
+12:58:30.482610 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 154488, win 2326, options [nop,nop,TS val 2501958398 ecr 2901460281], length 0
+12:58:30.483933 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 154488:157384, ack 1301, win 5, options [nop,nop,TS val 2901460282 ecr 2501958314], length 2896: HTTP
+12:58:30.483955 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 157384, win 2371, options [nop,nop,TS val 2501958399 ecr 2901460282], length 0
+12:58:30.485354 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 157384:160280, ack 1301, win 5, options [nop,nop,TS val 2901460283 ecr 2501958314], length 2896: HTTP
+12:58:30.485373 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 160280, win 2416, options [nop,nop,TS val 2501958401 ecr 2901460283], length 0
+12:58:30.486599 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 160280:163176, ack 1301, win 5, options [nop,nop,TS val 2901460285 ecr 2501958314], length 2896: HTTP
+12:58:30.486617 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 163176, win 2462, options [nop,nop,TS val 2501958402 ecr 2901460285], length 0
+12:58:30.487949 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 163176:166072, ack 1301, win 5, options [nop,nop,TS val 2901460286 ecr 2501958314], length 2896: HTTP
+12:58:30.487972 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 166072, win 2507, options [nop,nop,TS val 2501958403 ecr 2901460286], length 0
+12:58:30.489301 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 166072:168968, ack 1301, win 5, options [nop,nop,TS val 2901460287 ecr 2501958314], length 2896: HTTP
+12:58:30.489319 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 168968, win 2552, options [nop,nop,TS val 2501958405 ecr 2901460287], length 0
+12:58:30.490643 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 168968:171864, ack 1301, win 5, options [nop,nop,TS val 2901460289 ecr 2501958314], length 2896: HTTP
+12:58:30.490662 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 171864, win 2597, options [nop,nop,TS val 2501958406 ecr 2901460289], length 0
+12:58:30.491975 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 171864:174760, ack 1301, win 5, options [nop,nop,TS val 2901460290 ecr 2501958314], length 2896: HTTP
+12:58:30.491994 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 174760, win 2643, options [nop,nop,TS val 2501958407 ecr 2901460290], length 0
+12:58:30.493319 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 174760:177656, ack 1301, win 5, options [nop,nop,TS val 2901460291 ecr 2501958314], length 2896: HTTP
+12:58:30.493338 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 177656, win 2685, options [nop,nop,TS val 2501958409 ecr 2901460291], length 0
+12:58:30.494657 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 177656:180552, ack 1301, win 5, options [nop,nop,TS val 2901460293 ecr 2501958314], length 2896: HTTP
+12:58:30.494676 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 180552, win 2685, options [nop,nop,TS val 2501958410 ecr 2901460293], length 0
+12:58:30.495989 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 180552:183448, ack 1301, win 5, options [nop,nop,TS val 2901460294 ecr 2501958314], length 2896: HTTP
+12:58:30.496008 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 183448, win 2685, options [nop,nop,TS val 2501958411 ecr 2901460294], length 0
+12:58:30.497328 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 183448:186344, ack 1301, win 5, options [nop,nop,TS val 2901460295 ecr 2501958314], length 2896: HTTP
+12:58:30.497343 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 186344, win 2685, options [nop,nop,TS val 2501958413 ecr 2901460295], length 0
+12:58:30.498686 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [P.], seq 186344:188783, ack 1301, win 5, options [nop,nop,TS val 2901460297 ecr 2501958314], length 2439: HTTP
+12:58:30.498706 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 188783, win 2685, options [nop,nop,TS val 2501958414 ecr 2901460297], length 0
+12:58:30.723085 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [F.], seq 1301, ack 188783, win 2685, options [nop,nop,TS val 2501958638 ecr 2901460297], length 0
+12:58:30.724077 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [F.], seq 3153, ack 1726555, win 16955, options [nop,nop,TS val 2973260875 ecr 2657612244], length 0
+12:58:30.725734 IP 172.64.80.1.http > COMP3134-WINTER2025.50046: Flags [F.], seq 1726555, ack 3154, win 9, options [nop,nop,TS val 2657612724 ecr 2973260875], length 0
+12:58:30.725763 IP COMP3134-WINTER2025.50046 > 172.64.80.1.http: Flags [.], ack 1726556, win 16955, options [nop,nop,TS val 2973260877 ecr 2657612724], length 0
+12:58:30.800584 IP ubuntu-mirror-1.ps5.canonical.com.http > COMP3134-WINTER2025.41948: Flags [F.], seq 188783, ack 1302, win 5, options [nop,nop,TS val 2901460598 ecr 2501958638], length 0
+12:58:30.800633 IP COMP3134-WINTER2025.41948 > ubuntu-mirror-1.ps5.canonical.com.http: Flags [.], ack 188784, win 2685, options [nop,nop,TS val 2501958716 ecr 2901460598], length 0
+
