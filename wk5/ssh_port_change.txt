@@ -1,0 +1,8 @@
+# Simulated /etc/ssh/sshd_config setting
+Port 2222
+
+# Restart SSH service (on Linux)
+sudo service ssh restart
+
+# SSH login using new port
+ssh -p 2222 ChhaviChhabra@198.96.85.106
