@@ -1,0 +1,10 @@
+strip_tags() removes all HTML tags from a string.
+- Example: "<b>Hello</b>" becomes "Hello"
+- Effective for basic sanitization but not ideal for preserving formatting.
+
+htmlentities() encodes characters into HTML entities.
+- Example: "<script>" becomes "&lt;script&gt;"
+- This is better for displaying input safely without removing it.
+
+htmlentities is preferred when user input may contain special characters or symbols but should not be interpreted as code.
+
