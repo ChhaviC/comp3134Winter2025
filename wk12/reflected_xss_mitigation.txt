@@ -1,0 +1,7 @@
+To mitigate reflected XSS, I used the PHP function htmlentities().
+
+This converts special characters like < and > into their HTML-safe equivalents (&lt; and &gt;), which prevents the browser from executing them.
+
+As a result, injected scripts are displayed as harmless text, not run as code.
+
+This demonstrates a secure way to handle user input before reflecting it in the browser.

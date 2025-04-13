@@ -1,0 +1,7 @@
+To mitigate the Stored XSS vulnerability, I applied htmlentities() when displaying the stored comment.
+
+This converts special characters like < and > into safe HTML entities (&lt;, &gt;), which makes the browser show them as text instead of running them as code.
+
+The script submitted via the form is still stored in comments.txt, but it no longer gets executed.
+
+This protects users from persistent attacks and improves application security.

@@ -1,0 +1,9 @@
+This demonstrates a Stored XSS attack.
+
+A script is submitted through a form and saved in comments.txt.
+
+When the page is loaded, the script is retrieved and rendered directly into the page without sanitization.
+
+As a result, the JavaScript executes automatically for every user who visits the page.
+
+This can be used to steal cookies, log keystrokes, or redirect users.

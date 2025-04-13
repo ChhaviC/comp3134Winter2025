@@ -1,0 +1,7 @@
+This file demonstrates a reflected XSS vulnerability.
+
+By injecting `<script>alert('XSS')</script>` into the URL, the application reflects it back without filtering.
+
+The browser executes the script, showing a pop-up.
+
+This can be used to trick users into clicking malicious links, leading to session hijacking or redirection attacks.
